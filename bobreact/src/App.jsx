@@ -58,7 +58,9 @@ function App() {
       <div>
         <ProfileCard profileDetails = {profiledata} parentFunc = {sayHi} />
         <br />
-        <button onClick={manageStaff}>{profiledata.employed ? 'Fire staff' : 'Hire staff'}</button>
+        <button onClick={manageStaff}>
+          {profiledata.employed ? 'Fire staff' : 'Hire staff'}
+        </button>
       </div>
       <br />
 
