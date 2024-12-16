@@ -2,7 +2,7 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  text-align: left;
 }
 
 .logo {
@@ -27,6 +27,39 @@
   border-radius: 1rem;
   padding: 1rem;
 }
+
+form {
+  padding-inline: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+input[type="email"], input[type="password"], input[type="text"] {
+  border-radius: 100px;
+  border: 1px solid #0D9488;
+  height: 2rem;
+  text-indent: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  margin-bottom: 20px;
+}
+
+input[type="checkbox"], input[type="radio"], input[type="text"] {
+  margin-right: 10px;
+}
+
+fieldset {
+  border: 1px solid #262626;
+  margin-bottom: 20px;
+}
+
+
 
 
 @keyframes logo-spin {
